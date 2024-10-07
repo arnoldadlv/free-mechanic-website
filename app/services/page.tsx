@@ -55,11 +55,7 @@ const Services = () => {
               imgAlt="Mufflers/Exhaust"
               imgSrc="images/muffler.jpg"
               title="Mufflers/Exhaust"
-              imgCaption="Keeping your exhaust system functioning correctly not only helps to reduce emissions, but also limits noise pollution and keeps your car healthy and running properly.
-
-Our muffler and exhaust pros at will ensure that your complete exhaust system is serviced and extending the life of your vehicle's engine. From O2 sensors, to catalytic converters and mufflers, we are the ones to call!
-
-"
+              imgCaption="Our muffler and exhaust pros at will ensure that your complete exhaust system is serviced and extending the life of your vehicle's engine. From O2 sensors, to catalytic converters and mufflers, we are the ones to call!"
             />
           </div>
           <div>

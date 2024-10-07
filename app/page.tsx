@@ -33,10 +33,12 @@ export default function Home() {
             REQUEST APPOINTMENT
           </Button>
         </div>
+        <div>
+          <span className={title()}>FIX YOUR CAR TODAY</span>
+          <hr className="mt-4"></hr>
+        </div>
         <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-x-8">
           <div className="text-center">
-            <span className={title()}>FIX YOUR CAR TODAY</span>
-            <hr className="mt-4"></hr>
             <span className={`${subtitle()} mt-4`}>
               We specialize in German makes but we can fix anything
             </span>
@@ -49,6 +51,20 @@ export default function Home() {
             >
               REQUEST APPOINTMENT
             </Button>
+
+            <div>
+              <Button
+                as="a"
+                href="tel:+12066818920"
+                className={`${buttonStyles({
+                  color: "primary",
+                  radius: "full",
+                  variant: "shadow",
+                })} mb-4`}
+              >
+                CALL NOW
+              </Button>
+            </div>
             <p className="text-center">
               German Motors serving Las Vegas, NV is your top choice for BMW
               diagnostics, and Mercedes-Benz diagnostics, plus much more. Give
