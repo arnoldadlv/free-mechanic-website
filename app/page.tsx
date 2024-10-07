@@ -66,10 +66,10 @@ export default function Home() {
               </Button>
             </div>
             <p className="text-center">
-              German Motors serving Las Vegas, NV is your top choice for BMW
-              diagnostics, and Mercedes-Benz diagnostics, plus much more. Give
-              us a call today, or schedule an appointment online to find out why
-              motorists in Las Vegas prefer to do business with us!
+              BMW Only is your top choice for BMW diagnostics, and Mercedes-Benz
+              diagnostics, plus much more. Give us a call today, or schedule an
+              appointment online to find out why motorists in Las Vegas prefer
+              to do business with us!
             </p>
           </div>
           <div>
