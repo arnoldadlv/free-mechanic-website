@@ -61,7 +61,7 @@ export const Navbar = () => {
               width={50} // Customize the width
               height={50} // Customize the height
             />*/}
-            <p className="font-bold text-inherit">BMW'S ONLY</p>
+            <p className="font-bold text-inherit">BMW&apos;S ONLY</p>
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
