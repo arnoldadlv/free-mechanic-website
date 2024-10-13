@@ -31,7 +31,10 @@ jobs:
         run: |
           mv .next/static .next/standalone/.next/static
 	  mv public .next/standalone/public
-	  zip -r release.zip .next/standalone/ .next/static package.json node_modules
+
+      - name: Zip file for deployment
+	run: zip -r release.zip .next/standalone/ .next/static package.json node_modules
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
