@@ -6,6 +6,7 @@ import { title, subtitle } from "@/components/primitives";
 import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import ImgCard from "./ImgCard";
+import FlipCardComponent from "@/components/FlipCardComponent";
 
 export default function Home() {
   return (
@@ -33,57 +34,10 @@ export default function Home() {
         <div className="inline-block max-w-xl text-center justify-center">
           <span className={title()}>Services</span>
         </div>
+        <FlipCardComponent />
+
         <section className="py-4 px-4 md:px-12 flex flex-col items-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-            <div>
-              <ImgCard
-                imgAlt="A/C Repair"
-                imgSrc="images/acrepair.jpg"
-                title="A/C Repair"
-                imgCaption=""
-              />
-            </div>
-            <div>
-              <ImgCard
-                imgAlt="BMW Drivetrains"
-                imgSrc="images/bmwdrivetrain.jpg"
-                title="BMW Drivetrain Repair"
-                imgCaption=""
-              />
-            </div>
-            <div>
-              <ImgCard
-                imgAlt="Mufflers/Exhaust"
-                imgSrc="images/muffler.jpg"
-                title="Mufflers/Exhaust"
-                imgCaption=""
-              />
-            </div>
-            <div>
-              <ImgCard
-                imgAlt="Cooling System Repair"
-                imgSrc="images/coolingsystem.jpg"
-                title="Cooling System Repair"
-                imgCaption=""
-              />
-            </div>
-            <div>
-              <ImgCard
-                imgAlt="Serpentine,Driving & Timing Belts"
-                imgSrc="images/belts.png"
-                title="Serpentine,Driving & Timing Belts"
-                imgCaption=""
-              />
-            </div>
-            <div>
-              <ImgCard
-                imgAlt="Steering & Suspension"
-                imgSrc="images/suspension.jpg"
-                title="Steering & Suspension"
-                imgCaption=""
-              />
-            </div>
-          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8"></div>
         </section>
 
         <div className="text-center bg-background">
