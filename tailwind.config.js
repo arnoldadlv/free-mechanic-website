@@ -1,11 +1,11 @@
-import {nextui} from '@nextui-org/theme'
+import { nextui } from "@nextui-org/theme";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -14,13 +14,12 @@ module.exports = {
         mono: ["var(--font-mono)"],
       },
       colors: {
-        primary: '#004080',
-        secondary: '#000000',
-        accent: '#D52B1E',
-      }
+        primary: "#D52B1E",
+        secondary: "#000000",
+        accent: "#333333",
+      },
     },
   },
   darkMode: "class",
   plugins: [nextui()],
-}
-
+};

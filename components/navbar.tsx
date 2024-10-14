@@ -51,7 +51,11 @@ export const Navbar = () => {
   );
 
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <NextUINavbar
+      maxWidth="xl"
+      position="sticky"
+      className="bg-primary text-white"
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -69,7 +73,7 @@ export const Navbar = () => {
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  linkStyles({ color: "foreground" }),
+                  "text-white",
                   "data-[active=true]:text-primary data-[active=true]:font-medium"
                 )}
                 color="foreground"
@@ -89,7 +93,9 @@ export const Navbar = () => {
         <NavbarItem className="hidden sm:flex gap-2">
           <ThemeSwitch />
         </NavbarItem>
+        {/* 
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+        */}
         <NavbarItem className="hidden md:flex"></NavbarItem>
       </NavbarContent>
 
