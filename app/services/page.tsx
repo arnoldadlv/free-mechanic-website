@@ -20,7 +20,7 @@ const Services = () => {
         <span className={`${title()} mb-4`}>Services</span>
         <span className={`${subtitle()} mb-4`}>
           We provide a variety of services to keep your vehcile running like
-          new. Our friendly team of talented technicains us e the latest tools
+          new. Our friendly team of talented technicains use the latest tools
           and techniques to put you back on the road in top shape. Stop in and
           see for yourself why we are the best in Las Vegas, NV.
         </span>
@@ -29,7 +29,7 @@ const Services = () => {
             color: "primary",
             radius: "full",
             variant: "shadow",
-          })}`}
+          })} mb-4`}
         >
           REQUEST APPOINTMENT
         </Button>
